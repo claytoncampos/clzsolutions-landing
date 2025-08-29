@@ -416,7 +416,6 @@ const Contato = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold text-white mb-2">Email</h4>
-                  <p className="text-white/90 text-lg">clayton.almeida.campos@gmail.com</p>
                   <p className="text-white/90 text-lg">contato@clzsolutions.com</p>
                 </div>
               </div>
