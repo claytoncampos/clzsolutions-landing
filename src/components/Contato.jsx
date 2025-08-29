@@ -403,8 +403,7 @@ const Contato = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold text-white mb-2">Telefone</h4>
-                  <p className="text-white/90 text-lg">(11) 99999-9999</p>
-                  <p className="text-white/90 text-lg">(11) 88888-8888</p>
+                  <p className="text-white/90 text-lg">(11) 9 4724-3979</p>
                 </div>
               </div>
 

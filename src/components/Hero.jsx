@@ -1,4 +1,10 @@
 import React from "react";
+import logo from "../assets/logo.jpg";
+
+
+
+
+
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -57,11 +63,17 @@ const Hero = () => {
           <div className="relative">
             <div className="card hover-lift bg-white/10 backdrop-blur-sm border-white/20">
               <div className="text-center p-8">
-                <div className="text-8xl mb-6">🎨</div>
-                <h3 className="text-3xl font-bold text-white mb-4">Design Criativo</h3>
-                <p className="text-white/90 text-lg">
-                  Criamos designs únicos que destacam sua marca
-                </p>
+              <img
+                  src={logo}
+                  alt="logo"
+                  className="w-200 h-full object-cover group-hover:scale-50 transition-transform duration-300"
+                />
+                {/* <div className="text-8xl mb-6">🎨</div>*/}
+                {/*<h3 className="text-3xl font-bold text-gray mb-4">Design Criativo</h3>*/}
+                <h3 className="text-3xl font-bold text-gray mb-4 mt-4">A Solução para o seu evento</h3>
+                {/*<p className="text-gray text-lg">
+                  A Solução para o seu evento.
+                </p>*/}
               </div>
             </div>
             

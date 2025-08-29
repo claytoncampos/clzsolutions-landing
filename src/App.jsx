@@ -8,6 +8,7 @@ import Depoimentos from "./components/Depoimentos";
 import Planos from "./components/Planos";
 import Contato from "./components/Contato";
 import Rodape from "./components/Rodape";
+{/*import VideoPlayer from "./components/Video";*/}
 
 function App() {
   return (

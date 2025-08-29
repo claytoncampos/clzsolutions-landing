@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Solucoes = () => {
   const solucoes = [
     {
