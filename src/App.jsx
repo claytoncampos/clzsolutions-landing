@@ -8,6 +8,7 @@ import Depoimentos from "./components/Depoimentos";
 import Planos from "./components/Planos";
 import Contato from "./components/Contato";
 import Rodape from "./components/Rodape";
+import WhatsAppButton from './components/WhatsAppButton';
 {/*import VideoPlayer from "./components/Video";*/}
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
       </div>
       <div id="contato">
         <Contato />
+      </div>
+      <div>
+        <WhatsAppButton />
       </div>
       <Rodape />
     </div>
