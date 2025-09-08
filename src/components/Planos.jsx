@@ -64,6 +64,10 @@ const Planos = () => {
     }
   };
 
+  const handleReload = () => {
+    window.location.reload();
+  };
+
   const escolherPlano = (plano) => {
     // Criar mensagem personalizada baseada no plano
     const mensagem = `Olá! Gostaria de solicitar um orçamento para o plano ${plano.nome}.
@@ -92,6 +96,7 @@ Por favor, entre em contato para discutir os detalhes do meu evento e finalizar 
     // Pequeno delay antes de navegar para garantir que o localStorage seja processado
     setTimeout(() => {
       scrollToContact();
+      handleReload();
     }, 50);
   };
 
