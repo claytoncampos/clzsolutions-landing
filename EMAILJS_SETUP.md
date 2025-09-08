@@ -15,7 +15,7 @@
    - **Outlook** (funciona com UOL, Yahoo, Hotmail, etc.)
    - **SMTP** (para configuração manual)
 4. Conecte sua conta de email:
-   - **Para Gmail**: clayton.almeida.campos@gmail.com
+   - **Para Gmail**: seu_email@gmail.com
    - **Para UOL**: seu_email@uol.com.br
 5. Anote o **Service ID** gerado
 
@@ -60,7 +60,7 @@ Se você quiser usar um email UOL (exemplo: contato@uol.com.br):
 ```
 
 4. Configure:
-   - **To Email**: seu_email@uol.com.br (ou clayton.almeida.campos@gmail.com)
+   - **To Email**: seu_email@uol.com.br (ou seu_email@gmail.com)
    - **From Name**: Clz Solutions
    - **Subject**: Novo Orçamento - {{from_name}}
 5. Salve o template e anote o **Template ID**
