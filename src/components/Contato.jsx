@@ -190,7 +190,7 @@ const Contato = () => {
       
     } catch (error) {
       console.error("Erro ao enviar formulário:", error);
-      alert("Erro ao enviar mensagem. Tente novamente.");
+      alert("Erro ao enviar mensagem. Tente novamente. Ou click no botão WhatsApp para entrar em contato.");
     } finally {
       setIsSubmitting(false);
     }
